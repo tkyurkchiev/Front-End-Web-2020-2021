@@ -1,0 +1,213 @@
+
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+body{
+    font-size: 16px;
+    background-image: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    height: 100vh;
+}
+
+header{
+	background-color: white;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 2rem;
+    height: 2.5rem;
+}
+
+header h1{
+	font-size: 2rem;
+    font-weight: lighter;
+}
+
+header i {
+    position: absolute;
+    top: 0.7rem;
+    right: 3rem;
+}
+
+#search{
+    height: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;;
+    border: 1px solid #e4e0e0;
+    width: 15rem;
+    background-color: #eff7fc;
+}
+#search:focus{
+    outline: none;
+}
+
+main {
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.profile{
+	background: white;
+    max-width: 18rem;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.profile>p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.profile img{
+    margin-top: 0.5rem;
+    height: 3.5rem;
+    width: 5.25rem;
+} 
+
+.statistics{
+	display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3.75rem;
+    background: #eff8ff;
+    align-items: center;
+}
+
+.statistics input {
+    background: #eff8ff;
+    border: 1px solid #6dc2d9;
+    color: #6dc2d9;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 4.2rem;
+    font-weight: 700;
+}
+
+.Posts{
+	display: flex;
+    padding-right: 4rem;
+}
+
+.Posts div{
+	padding-right: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.PostsCount p:nth-child(2), .ReactionsCount p:nth-child(2) {
+    color: #6dc2d9;
+    font-size: 1.125rem;
+}
+
+.PostsCount p:first-child, .ReactionsCount p:first-child {
+    color: #848694;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.SaySomething{
+	display: flex;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    background: #eff8ff;
+    height: 3rem;
+}
+
+.SaySomething i{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    color: #6dc2d9;
+}
+
+.SaySomething input {
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 1rem;
+    padding: 0.5rem 0.9rem;
+    height: 2rem;
+    background: white;
+}
+
+.SaySomething input::placeholder{
+	color:#6dc2d9;
+}
+
+.SaySomething input:focus{
+    outline: none;
+}
+
+.SaySomething img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.Feed{
+	background-color: white;
+    max-width: 55rem;
+}
+
+.currentpost, .oldpost{
+    display: flex;
+    padding: 1rem;
+    min-height: 7rem;
+    position: relative;
+}
+
+.currentpost img, .oldpost img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#name{
+    font-weight: bold;
+}
+
+.post p {
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+.border{
+    border-bottom: 1px solid #ececec;
+}
+
+i.fas.fa-times {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+i.fas.fa-circle.fa-xs, #date, i.fas.fa-times {
+    color: #848694;
+}
+
+i.fas.fa-circle.fa-xs{
+    vertical-align: middle;
+    font-size: 0.3rem;
+}
+
+.likes, .dislikes {
+    padding-right: 4rem;
+}
+
+@media screen and (max-width: 890px) {
+    main {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .profile-container { 
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
