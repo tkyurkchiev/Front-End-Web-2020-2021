@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://kit.fontawesome.com/ccd38555db.js"></script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Feed-style.css">
+    <title>Feed</title>
+</head>
+<body>
+	<header>
+		<h1>Flutter</h1>
+		<input type="search" placeholder="Seach" id="search">
+		<i class="fas fa-search"></i>
+	</header>
+	<main>
+		<section class="profile">
+			<img src="D:\Homework1\avatar.png"><br>
+			<p>Todor Kyurkchiev</p>
+			<section class="statistics">
+				<div class="Posts">
+					<div class="PostsCount">
+						<p>Posts</p>
+						<p>1</p>
+					</div>
+					<div class="ReactionsCount">
+						<p>Reactions</p>
+						<p>7</p>
+					</div>
+				</div>
+				<input type="button" value="Log Out" id="logout">
+			</section>
+		</section>
+		<section class="Feed">
+			<div class="SaySomething border">
+				<img src="D:\Homework1\avatar.png">
+				<input type="text" placeholder="Say Something">
+				<i class="far fa-comment-alt"></i>
+			</div>
+
+			<div class="currentpost border">
+				<img src="D:\Homework1\avatar.png">
+				<div class="post">
+					<span id="name">Ivan Ivanov</span>
+					<i class="fas fa-circle fa-xs"></i>
+					<span id="date">0 seconds ago</span><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<i class="far fa-thumbs-up"></i>
+    	            <span class="likes">5</span>
+    	            <i class="far fa-thumbs-down"></i>
+    	            <span class="dislikes">3</span>
+				</div>
+				<i class="fas fa-times"></i>
+			</div>
+			<div class="oldpost border">
+				<img src="D:\Homework1\avatar.png">
+				<div class="post">
+					<span id="name">Todor</span>
+					<i class="fas fa-circle fa-xs"></i>
+					<span id="date">Last month</span><br>
+					<p>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<i class="far fa-thumbs-up"></i>
+    	            <span class="likes">3</span>
+    	            <i class="far fa-thumbs-down"></i>
+    	            <span class="dislikes">0</span>
+				</div>
+				<i class="fas fa-times"></i>
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
