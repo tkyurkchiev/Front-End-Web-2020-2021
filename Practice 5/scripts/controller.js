@@ -23,7 +23,7 @@ function validate() {
     var email = document.getElementsByName("email")[0];
     var username = document.getElementsByName("username")[0];
     var password = document.getElementsByName("password")[0];
-	var at = email.value.lastIndexOf("@");
+    var at = email.value.lastIndexOf("@");
     var dot = email.value.lastIndexOf(".");
 
     if (!email.value) {
