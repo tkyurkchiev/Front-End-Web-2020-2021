@@ -6,3 +6,4 @@ A repository for the Front-End Web course in FMI 2020/2021
 3. Practice 3 (15.11.2020)
 4. Practice 4 (22.11.2020)
 5. Practice 5 (29.11.2020)
+6. Practice 6 (13.12.2020)
